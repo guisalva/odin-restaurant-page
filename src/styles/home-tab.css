@@ -1,0 +1,19 @@
+.welcome-section {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+figure img {
+  border-radius: 8px;
+}
+
+figure figcaption {
+  font-size: 12px;
+}
+
+.welcome-section > p {
+  font-size: 26px;
+  font-weight: 300;
+  font-style: italic;
+}

@@ -1,3 +1,5 @@
+import "./styles/home-tab.css";
+
 import bakeryImg from "./assets/bakery.jpg";
 
 export function createHomeTab() {
@@ -7,7 +9,7 @@ export function createHomeTab() {
   const img = document.createElement("img");
   img.src = bakeryImg;
   img.alt = "bread and coffe";
-  img.width = 300;
+  img.width = 250;
 
   const credit = document.createElement("figcaption");
   credit.innerHTML =

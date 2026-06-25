@@ -1,3 +1,4 @@
+import "./styles/menu-tab.css";
 import menuOptions from "./data/menu-options.json" with { type: "json" };
 
 function formatPrice(price) {
@@ -12,6 +13,7 @@ export function createMenuTab() {
   heading.innerText = "Menu";
 
   const menu = document.createElement("div");
+  menu.classList.add("menu");
 
   for (const key in menuOptions) {
     const category = menuOptions[key];

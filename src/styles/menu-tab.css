@@ -1,0 +1,13 @@
+.menu {
+  margin: 0 auto;
+  width: max-content;
+}
+
+.menu > h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+
+  &:not(:first-child) {
+    margin-top: 20px;
+  }
+}

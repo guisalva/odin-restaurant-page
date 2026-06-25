@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  padding: 20px 0;
+}
+
+header > button {
+  background-color: #c19862;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 28px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(0.92);
+  }
+}
+
+#content {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 36px;
+}

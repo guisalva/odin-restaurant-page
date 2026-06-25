@@ -1,3 +1,5 @@
+import "./styles/styles.css";
+
 import { createHomeTab } from "./home-tab.js";
 import { createMenuTab } from "./menu-tab.js";
 import { createContactTab } from "./contact-tab.js";
