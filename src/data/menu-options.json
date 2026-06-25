@@ -1,0 +1,17 @@
+{
+  "breakfast": [
+    { "name": "croissant", "price": 4.5 },
+    { "name": "scrambled eggs", "price": 6 },
+    { "name": "odin's royal donuts", "price": 12 }
+  ],
+  "sweet": [
+    { "name": "croissant with chocolate", "price": 8 },
+    { "name": "milk shake", "price": 12 },
+    { "name": "odin's royal sweet donuts", "price": 16 }
+  ],
+  "drinks": [
+    { "name": "coffee", "price": 3 },
+    { "name": "cappuccino", "price": 4 },
+    { "name": "hot chocolate", "price": 6 }
+  ]
+}
