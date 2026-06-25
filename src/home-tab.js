@@ -4,7 +4,7 @@ export function createHomeTab() {
   content.innerHTML = "";
 
   const heading = document.createElement("h2");
-  heading.innerText = "Odin Bakery";
+  heading.innerText = "Welcome to Odin Bakery";
 
   const img = document.createElement("img");
   img.src = bakeryImg;

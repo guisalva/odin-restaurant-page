@@ -1,5 +1,5 @@
 export function createContactTab() {
-  const heading = document.createElement("h1");
+  const heading = document.createElement("h2");
   heading.innerText = "Contact us";
 
   const text = document.createElement("p");
