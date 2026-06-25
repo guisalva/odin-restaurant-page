@@ -37,9 +37,7 @@ function handleTabButtonClick(e) {
 }
 
 function renderTabElements(elements) {
-  content.innerHTML = "";
-
-  content.append(...elements);
+  content.replaceChildren(...elements);
 }
 
 header.addEventListener("click", (e) => handleTabButtonClick(e));

@@ -8,8 +8,6 @@ function formatPrice(price) {
 }
 
 export function createMenuTab() {
-  content.innerHTML = "";
-
   const heading = document.createElement("h2");
   heading.innerText = "Menu";
 
